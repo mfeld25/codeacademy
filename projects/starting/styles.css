@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400&family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Yellowtail&display=swap');
+* {
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+    margin: 0 0;
+    padding: 0 0;
+}
+
+
+
+header {
+    /* margin-top: 100px; */
+}
+
+header h1 {
+    /* margin: 50px; */
+    position: static;
+    margin-left: 20px;
+    margin-top: 150px;
+}
+
+header nav {
+    text-align: center;
+    position: fixed;
+    /* display: block;  */
+    width: 100%;
+    height: 50px;
+    margin-top: -150px;
+}
+
+header nav ul {
+    list-style: circle;
+    padding: 10px auto;
+    margin: 0 auto;
+    background-color: black;
+    
+}
+
+header nav ul li a {
+    display: inline-block;
+    padding: 10px auto;
+    margin: 10px auto;
+    text-align: center;
+    color: white;
+    
+}
+
+main {
+    height: 100%;
+    width: 75%;
+    margin-left: 20px;
+}
+
+main .container {
+    height: 1000px;
+    width: 100%;
+    margin: 5px auto;
+    border: 1px solid black;
+}
+
+main .container h2 {
+    padding: 0 auto;
+    margin: 10px;
+    text-align: center;
+}
+
+main .container .subcontainer {
+    text-align: center;
+    vertical-align: middle;
+    height: 400px;
+    width: 400px;
+    padding: 0 auto;
+    margin: 10px 20px;
+    display: inline-block;
+    align-items: center;
+    
+    
+}
+
+main .container .subcontainer span {
+    display: block;
+    text-align: center;
+    padding: 20px auto;
+    align-items: center;
+    margin: 40% auto;
+    font-size: 40px;
+    
+}
+
+main .container#colors .subcontainer#royalblue {
+    background-color: #4169e1;
+    
+}
+
+main .container#colors .subcontainer#lightcoral {
+    background-color: #f08080;
+    
+}
+
+main .container#colors .subcontainer#seagreen {
+    background-color: #2e8b57;
+    
+}
+
+
+
+main .container#fonts .subcontainer {
+    text-align: center;
+    font-size: xx-large;
+    /* margin: 5px auto; */
+    border: 1px solid black;
+}
+
+main .container#fonts .subcontainer div {
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+main .container#fonts .subcontainer p {
+    display: inline-block;
+    /* padding: 75px auto; */
+    margin: 30px auto;
+}
+
+main .container#fonts .subcontainer#arvo {
+    font-family: "Arvo";
+}
+
+main .container#fonts .subcontainer#playfair {
+    font-family: "Playfair Display'";
+}
+
+main .container#fonts .subcontainer#yellowtail {
+    font-family: "Yellowtail";
+}
+
+main .container#fonts .subcontainer p.bold {
+    font-weight: 700;
+}
+
+main .container#fonts .subcontainer p.italics {
+    font-style: italic;
+}
+
+main .container#fonts .subcontainer p.normal {
+    font-style: normal;
+}
